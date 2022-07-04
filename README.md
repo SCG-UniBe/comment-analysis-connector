@@ -4,7 +4,7 @@
 This project allows to analyze and visualize class-comments here in Github. It was build as a seminar project for the Software Composition Seminar at the University of Bern and serves as a proof of concept.
 
 ## Overview
- [1. Reqirements](#requirements) <br />
+ [1. Requirements](#requirements) <br />
  [2. Installation](#installation) <br />
  [3. Getting started / Usage](#getting-started--usage) <br />
  [4. Repo Structure](#repo-structure) <br />
@@ -47,16 +47,12 @@ If the plugin is activated, a small colored triangle appears in the top right co
 ![](https://github.com/fadnincx/comment-analysis-connector/blob/master/res/screenshot-corner-green.png?raw=true)
 ![](https://github.com/fadnincx/comment-analysis-connector/blob/master/res/screenshot-corner-red.png?raw=true)
 
-
-
 Once the corner turned into green, you can see the class comments underlined. Hovering at any location inside comments, a tooltip appears on the hovered line with a label. 
 ![](https://github.com/fadnincx/comment-analysis-connector/blob/master/res/screenshot-example-tooltip.png?raw=true) 
 
 The label indicates the assigned category (intent) of the sentence. In order to see all occurrences of a specific label inside comments, a small overlay is added on the right upper side of the page (movable). Hovering over a label should display all its occurrences in the text. 
 
 ![](https://github.com/fadnincx/comment-analysis-connector/blob/master/res/screenshot-example-label-list.png?raw=true)
-
-
 
 ## Repo Structure
 ### [`api/Dockerfile`](api/Dockerfile) and [`api/docker-compose.yml`](api/docker-compose.yml)
@@ -89,12 +85,14 @@ This folder is, where the entire Chrome plugin is defined.
    Describes the small window for the plugin configuration.
 * [`manifest.json`](chrome-plugin/manifest.json)  
    The manifest describing the plugin and some meta data to Chrome, defines the active pages, request additional permissions and so on.
+   
 ## References
  * [comment-analysis-neon CLI](https://github.com/maenu/comment-analysis-neon)
  * [SCG Software Composition Seminar - University of Bern](http://scg.unibe.ch/wiki/softwarecompositionseminar)
  * [Spring](https://spring.io/)
  * [Docker](https://www.docker.com/)
  * [docker-compose](https://docs.docker.com/compose/)
+ 
 ## License
 GNU General Public License v3.0 or later
 See [LICENSE](LICENSE) to see the full text.

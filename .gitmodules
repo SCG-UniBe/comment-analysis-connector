@@ -1,0 +1,3 @@
+[submodule "api/submodules/comment-analysis-neon"]
+	path = api/submodules/comment-analysis-neon
+	url = https://github.com/maenu/comment-analysis-neon.git
