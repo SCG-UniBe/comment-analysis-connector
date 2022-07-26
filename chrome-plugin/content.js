@@ -49,6 +49,7 @@ const cornerMarking = (color) => {
 		cornerMarking.style.position = 'fixed'
 		cornerMarking.style.right = '0px'
 		cornerMarking.style.top = '0px'
+		cornerMarking.style.zIndex = '1000'
 		document.body.appendChild(cornerMarking);
 
 	// There exists an element
